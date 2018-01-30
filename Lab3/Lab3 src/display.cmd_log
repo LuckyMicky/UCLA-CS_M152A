@@ -1,0 +1,366 @@
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 display.ngc display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o display_map.ncd display.ngd display.pcf 
+par -w -intstyle ise -ol high -mt off display_map.ncd display.ncd display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml display.twx display.ncd -o display.twr display.pcf 
+bitgen -intstyle ise -f display.ut display.ncd 

@@ -1,0 +1,28 @@
+Command line:
+   stopwatch_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53357
+
+Tue May 16 12:46:42 2017
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 828.256 Meg
+
+ Total Signals          : 15
+ Total Nets             : 19
+ Total Signal Drivers   : 9
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 26
+ Total Scalar Nets and Variables : 207
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 828.256 Meg
+
+Tue May 16 12:46:53 2017
+

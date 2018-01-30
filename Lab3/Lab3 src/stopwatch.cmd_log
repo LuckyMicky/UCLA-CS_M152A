@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 stopwatch.ngc stopwatch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 stopwatch.ngc stopwatch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf -p xc6slx16-csg324-3 stopwatch.ngc stopwatch.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.xst" -ofn "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.syr" 

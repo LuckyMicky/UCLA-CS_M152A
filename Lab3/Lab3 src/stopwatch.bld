@@ -1,0 +1,276 @@
+Release 14.6 ngdbuild P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab3/nexys3.ucf
+-p xc6slx16-csg324-3 stopwatch.ngc stopwatch.ngd
+
+Reading NGO file "C:/Users/152/Downloads/Lab3/Lab3-AAJ/stopwatch.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"C:/Users/152/Downloads/Lab3/nexys3.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "seg<0>"         LOC = "T17" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(76)]: NET "seg<0>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg<0>"         LOC = "T17" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(76)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(76)]: NET "seg<0>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg<1>"         LOC = "T18" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(77)]: NET "seg<1>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg<1>"         LOC = "T18" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(77)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(77)]: NET "seg<1>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg<2>"         LOC = "U17" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(78)]: NET "seg<2>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg<2>"         LOC = "U17" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(78)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(78)]: NET "seg<2>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg<3>"         LOC = "U18" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(79)]: NET "seg<3>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg<3>"         LOC = "U18" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(79)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(79)]: NET "seg<3>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg<4>"         LOC = "M14" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(80)]: NET "seg<4>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg<4>"         LOC = "M14" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(80)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(80)]: NET "seg<4>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg<5>"         LOC = "N14" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(81)]: NET "seg<5>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg<5>"         LOC = "N14" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(81)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(81)]: NET "seg<5>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg<6>"         LOC = "L14" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(82)]: NET "seg<6>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg<6>"         LOC = "L14" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(82)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(82)]: NET "seg<6>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg<7>"         LOC = "M13" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(83)]: NET "seg<7>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg<7>"         LOC = "M13" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(83)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(83)]: NET "seg<7>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "adjust"         LOC = "B8"  |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(114)]: NET "adjust" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "adjust"         LOC = "B8"  |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(114)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(114)]: NET "adjust" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "start"         LOC = "A8"  |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(115)]: NET "start" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "start"         LOC = "A8"  |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(115)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(115)]: NET "start" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "left"         LOC = "C4"  |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(116)]: NET "left" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "left"         LOC = "C4"  |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(116)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(116)]: NET "left" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "right"         LOC = "D9"  |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(118)]: NET "right" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "right"         LOC = "D9"  |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(118)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(118)]: NET "right" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "RsRx"           LOC = "N17" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(220)]: NET "RsRx" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "RsRx"           LOC = "N17" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(220)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(220)]: NET "RsRx" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "RsTx"           LOC = "N18" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(221)]: NET "RsTx" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "RsTx"           LOC = "N18" |>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(221)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [C:/Users/152/Downloads/Lab3/nexys3.ucf(221)]: NET "RsTx" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    28
+  Number of warnings:  14
+
+Total memory usage is 163268 kilobytes
+
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "stopwatch.bld"...

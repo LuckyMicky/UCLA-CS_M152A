@@ -1,0 +1,59 @@
+//! **************************************************************************
+// Written by: Map P.68d on Thu May 18 12:39:27 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "adj" LOCATE = SITE "T9" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "sel" LOCATE = SITE "T10" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "pause" LOCATE = SITE "A8" LEVEL 1;
+COMP "reset" LOCATE = SITE "C9" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "M13" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "pauseDebouncer/debouncer_threshold_14" BEL
+        "pauseDebouncer/debouncer_threshold_13" BEL
+        "pauseDebouncer/debouncer_threshold_12" BEL
+        "pauseDebouncer/debouncer_threshold_11" BEL
+        "pauseDebouncer/debouncer_threshold_10" BEL
+        "pauseDebouncer/debouncer_threshold_9" BEL
+        "pauseDebouncer/debouncer_threshold_8" BEL
+        "pauseDebouncer/debouncer_threshold_7" BEL
+        "pauseDebouncer/debouncer_threshold_6" BEL
+        "pauseDebouncer/debouncer_threshold_5" BEL
+        "pauseDebouncer/debouncer_threshold_4" BEL
+        "pauseDebouncer/debouncer_threshold_3" BEL
+        "pauseDebouncer/debouncer_threshold_2" BEL
+        "pauseDebouncer/debouncer_threshold_1" BEL
+        "pauseDebouncer/debouncer_threshold_0" BEL "s/d_23" BEL "s/d_22" BEL
+        "s/d_21" BEL "s/d_20" BEL "s/d_19" BEL "s/d_18" BEL "s/d_17" BEL
+        "s/d_16" BEL "s/d_15" BEL "s/d_14" BEL "s/d_13" BEL "s/d_12" BEL
+        "s/d_11" BEL "s/d_10" BEL "s/d_9" BEL "s/d_8" BEL "s/d_7" BEL "s/d_6"
+        BEL "s/d_5" BEL "s/d_4" BEL "s/d_3" BEL "s/d_2" BEL "s/d_1" BEL
+        "s/d_0" BEL "s/a_25" BEL "s/a_24" BEL "s/a_23" BEL "s/a_22" BEL
+        "s/a_21" BEL "s/a_20" BEL "s/a_19" BEL "s/a_18" BEL "s/a_17" BEL
+        "s/a_16" BEL "s/a_15" BEL "s/a_14" BEL "s/a_13" BEL "s/a_12" BEL
+        "s/a_11" BEL "s/a_10" BEL "s/a_9" BEL "s/a_8" BEL "s/a_7" BEL "s/a_6"
+        BEL "s/a_5" BEL "s/a_4" BEL "s/a_3" BEL "s/a_2" BEL "s/a_1" BEL
+        "s/a_0" BEL "s/c_15" BEL "s/c_14" BEL "s/c_13" BEL "s/c_12" BEL
+        "s/c_11" BEL "s/c_10" BEL "s/c_9" BEL "s/c_8" BEL "s/c_7" BEL "s/c_6"
+        BEL "s/c_5" BEL "s/c_4" BEL "s/c_3" BEL "s/c_2" BEL "s/c_1" BEL
+        "s/c_0" BEL "s/b_24" BEL "s/b_23" BEL "s/b_22" BEL "s/b_21" BEL
+        "s/b_20" BEL "s/b_19" BEL "s/b_18" BEL "s/b_17" BEL "s/b_16" BEL
+        "s/b_15" BEL "s/b_14" BEL "s/b_13" BEL "s/b_12" BEL "s/b_11" BEL
+        "s/b_10" BEL "s/b_9" BEL "s/b_8" BEL "s/b_7" BEL "s/b_6" BEL "s/b_5"
+        BEL "s/b_4" BEL "s/b_3" BEL "s/b_2" BEL "s/b_1" BEL "s/b_0" BEL
+        "s/pauseState" BEL "pauseDebouncer/temp_buttonstate" BEL "s/betweenHz"
+        BEL "s/twoHz" BEL "s/oneHz" BEL "s/fastHz" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

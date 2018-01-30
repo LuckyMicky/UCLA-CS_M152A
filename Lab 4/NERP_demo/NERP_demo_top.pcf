@@ -1,0 +1,37 @@
+//! **************************************************************************
+// Written by: Map P.68d on Thu May 18 13:34:50 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "red<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "red<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "dp" LOCATE = SITE "M13" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "clr" LOCATE = SITE "B8" LEVEL 1;
+COMP "green<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "green<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "green<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "hsync" LOCATE = SITE "N6" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P7" LEVEL 1;
+COMP "blue<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "blue<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "red<0>" LOCATE = SITE "U7" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "U1/q_0" BEL "U1/q_1" BEL "U1/q_2" BEL "U1/q_3" BEL
+        "U1/q_4" BEL "U1/q_5" BEL "U1/q_6" BEL "U1/q_7" BEL "U1/q_8" BEL
+        "U1/q_9" BEL "U1/q_10" BEL "U1/q_11" BEL "U1/q_12" BEL "U1/q_13" BEL
+        "U1/q_14" BEL "U1/q_15" BEL "U1/q_16" BEL "U1/q_17" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
