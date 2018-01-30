@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\nexys3.v" Line 106: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\seq_alu.v" Line 32: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart_top.v" Line 60: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart_top.v" Line 61: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart_fifo.v" Line 55: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart_fifo.v" Line 61: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 90: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 93: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 95: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 98: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 138: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 139: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 147: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 153: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 192: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\rtl\uart.v" Line 209: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\152\Downloads\rtl\nexys3.v" Line 133: Assignment to <arg fmt="%s" index="1">uart_rx_data</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\152\Downloads\rtl\nexys3.v" Line 134: Assignment to <arg fmt="%s" index="1">uart_rx_valid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\152\Downloads\rtl\nexys3.v</arg>&quot; line <arg fmt="%s" index="2">130</arg>: Output port &lt;<arg fmt="%s" index="3">o_rx_data</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_top_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\152\Downloads\rtl\nexys3.v</arg>&quot; line <arg fmt="%s" index="2">130</arg>: Output port &lt;<arg fmt="%s" index="3">o_rx_valid</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_top_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\152\Downloads\rtl\uart_top.v</arg>&quot; line <arg fmt="%s" index="2">100</arg>: Output port &lt;<arg fmt="%s" index="3">fifo_cnt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">tfifo_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\152\Downloads\rtl\uart_top.v</arg>&quot; line <arg fmt="%s" index="2">120</arg>: Output port &lt;<arg fmt="%s" index="3">is_receiving</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\152\Downloads\rtl\uart_top.v</arg>&quot; line <arg fmt="%s" index="2">120</arg>: Output port &lt;<arg fmt="%s" index="3">recv_error</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_tx_data[15]_GND_8_o_wide_mux_17_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_bits_remaining_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_bits_remaining_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_bits_remaining_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_bits_remaining_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_countdown_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_countdown_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_countdown_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_countdown_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_countdown_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_countdown_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_clk_divider_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/recv_state_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/recv_state_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/recv_state_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_data_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_data_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_data_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_data_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_data_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_data_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_data_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_top_/uart_/rx_data_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nexys3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">uart_top_/uart_/tx_clk_divider_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">nexys3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">uart_top_/uart_/tx_clk_divider_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">nexys3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">uart_top_/uart_/tx_clk_divider_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">nexys3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">uart_top_/uart_/tx_clk_divider_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">nexys3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">uart_top_/uart_/tx_clk_divider_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">nexys3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">uart_top_/uart_/tx_clk_divider_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">nexys3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

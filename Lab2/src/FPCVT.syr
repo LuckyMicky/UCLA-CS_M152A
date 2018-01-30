@@ -1,0 +1,641 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: FPCVT.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FPCVT.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FPCVT"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : FPCVT
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\152\Downloads\Lab2-AAJ\FPCVT.v" into library work
+Parsing module <FPCVT>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <FPCVT>.
+WARNING:HDLCompiler:413 - "C:\Users\152\Downloads\Lab2-AAJ\FPCVT.v" Line 59: Result of 32-bit expression is truncated to fit in 3-bit target.
+"C:\Users\152\Downloads\Lab2-AAJ\FPCVT.v" Line 75. $display  $count
+"C:\Users\152\Downloads\Lab2-AAJ\FPCVT.v" Line 86. $display hi
+"C:\Users\152\Downloads\Lab2-AAJ\FPCVT.v" Line 87. $display  $tempD
+WARNING:HDLCompiler:413 - "C:\Users\152\Downloads\Lab2-AAJ\FPCVT.v" Line 96: Result of 4-bit expression is truncated to fit in 3-bit target.
+"C:\Users\152\Downloads\Lab2-AAJ\FPCVT.v" Line 110. $display Hi
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <FPCVT>.
+    Related source file is "C:\Users\152\Downloads\Lab2-AAJ\FPCVT.v".
+    Found 12-bit adder for signal <D[11]_GND_1_o_add_2_OUT> created at line 43.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_18_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_29_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_40_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_51_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_62_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_73_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_84_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_95_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_106_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_117_OUT> created at line 58.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_128_OUT> created at line 58.
+    Found 32-bit adder for signal <n0477> created at line 80.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_141_OUT> created at line 80.
+    Found 32-bit adder for signal <n0490> created at line 93.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_156_OUT> created at line 93.
+    Found 3-bit adder for signal <E[2]_GND_1_o_add_160_OUT> created at line 96.
+    Found 4-bit adder for signal <D[11]_GND_1_o_add_165_OUT> created at line 100.
+    Found 4-bit subtractor for signal <GND_1_o_count[31]_sub_139_OUT<3:0>> created at line 80.
+    Found 4-bit subtractor for signal <GND_1_o_count[31]_sub_143_OUT<3:0>> created at line 80.
+    Found 4-bit subtractor for signal <GND_1_o_count[31]_sub_147_OUT<3:0>> created at line 80.
+    Found 4-bit subtractor for signal <GND_1_o_count[31]_sub_151_OUT<3:0>> created at line 80.
+    Found 4-bit subtractor for signal <GND_1_o_count[31]_sub_158_OUT<3:0>> created at line 93.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_20_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_31_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_42_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_53_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_64_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_75_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_86_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_97_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_108_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_119_OUT<2:0>> created at line 59.
+    Found 3-bit subtractor for signal <GND_1_o_count[31]_sub_130_OUT<2:0>> created at line 59.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_145_OUT> created at line 80.
+    Found 32-bit adder for signal <count[31]_GND_1_o_add_149_OUT> created at line 80.
+    Found 1-bit 12-to-1 multiplexer for signal <GND_1_o_X_1_o_Mux_139_o> created at line 80.
+    Found 1-bit 12-to-1 multiplexer for signal <GND_1_o_X_1_o_Mux_143_o> created at line 80.
+    Found 1-bit 12-to-1 multiplexer for signal <GND_1_o_X_1_o_Mux_147_o> created at line 80.
+    Found 1-bit 12-to-1 multiplexer for signal <GND_1_o_X_1_o_Mux_151_o> created at line 80.
+    Found 1-bit 12-to-1 multiplexer for signal <GND_1_o_GND_1_o_equal_160_o> created at line 93.
+WARNING:Xst:737 - Found 1-bit latch for signal <E<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <E<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <j<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <j<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <E<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_7_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_18_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_29_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_40_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_51_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_62_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_73_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_84_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_95_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_106_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_117_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_128_o> created at line 56
+    Found 32-bit comparator greater for signal <GND_1_o_count[31]_LessThan_137_o> created at line 76
+    Found 12-bit comparator greater for signal <n0186> created at line 108
+    Summary:
+	inferred  36 Adder/Subtractor(s).
+	inferred   5 Latch(s).
+	inferred  14 Comparator(s).
+	inferred 125 Multiplexer(s).
+Unit <FPCVT> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 36
+ 12-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 11
+ 32-bit adder                                          : 17
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 5
+# Latches                                              : 5
+ 1-bit latch                                           : 5
+# Comparators                                          : 14
+ 12-bit comparator greater                             : 1
+ 32-bit comparator greater                             : 13
+# Multiplexers                                         : 125
+ 1-bit 12-to-1 multiplexer                             : 5
+ 1-bit 2-to-1 multiplexer                              : 47
+ 12-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 24
+ 32-bit 2-to-1 multiplexer                             : 45
+ 4-bit 2-to-1 multiplexer                              : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <j_31> (without init value) has a constant value of 0 in block <FPCVT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <j_2> (without init value) has a constant value of 1 in block <FPCVT>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 34
+ 12-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 11
+ 32-bit adder                                          : 11
+ 4-bit adder                                           : 5
+ 4-bit subtractor                                      : 3
+ 4-bit subtractor borrow in                            : 2
+# Comparators                                          : 14
+ 12-bit comparator greater                             : 1
+ 32-bit comparator greater                             : 13
+# Multiplexers                                         : 125
+ 1-bit 12-to-1 multiplexer                             : 5
+ 1-bit 2-to-1 multiplexer                              : 47
+ 12-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 24
+ 32-bit 2-to-1 multiplexer                             : 45
+ 4-bit 2-to-1 multiplexer                              : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <j_31> (without init value) has a constant value of 0 in block <FPCVT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <j_2> (without init value) has a constant value of 1 in block <FPCVT>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <FPCVT> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FPCVT, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : FPCVT.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 615
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 1
+#      LUT2                        : 13
+#      LUT3                        : 30
+#      LUT4                        : 117
+#      LUT5                        : 62
+#      LUT6                        : 151
+#      MUXCY                       : 130
+#      MUXF7                       : 11
+#      VCC                         : 1
+#      XORCY                       : 87
+# FlipFlops/Latches                : 3
+#      LDP                         : 3
+# IO Buffers                       : 20
+#      IBUF                        : 12
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               3  out of  18224     0%  
+ Number of Slice LUTs:                  385  out of   9112     4%  
+    Number used as Logic:               385  out of   9112     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    385
+   Number with an unused Flip Flop:     382  out of    385    99%  
+   Number with an unused LUT:             0  out of    385     0%  
+   Number of fully used LUT-FF pairs:     3  out of    385     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    232     8%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------+------------------------+-------+
+Clock Signal                                   | Clock buffer(FF name)  | Load  |
+-----------------------------------------------+------------------------+-------+
+D[11]_GND_1_o_OR_77_o(D[11]_GND_1_o_OR_77_o5:O)| NONE(*)(E_2)           | 3     |
+-----------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.894ns (Maximum Frequency: 169.661MHz)
+   Minimum input arrival time before clock: 40.551ns
+   Maximum output required time after clock: 3.752ns
+   Maximum combinational path delay: 42.491ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'D[11]_GND_1_o_OR_77_o'
+  Clock period: 5.894ns (frequency: 169.661MHz)
+  Total number of paths / destination ports: 61 / 3
+-------------------------------------------------------------------------
+Delay:               5.894ns (Levels of Logic = 7)
+  Source:            E_2 (LATCH)
+  Destination:       E_2 (LATCH)
+  Source Clock:      D[11]_GND_1_o_OR_77_o falling
+  Destination Clock: D[11]_GND_1_o_OR_77_o falling
+
+  Data Path: E_2 to E_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDP:G->Q              3   0.498   0.651  E_2 (E_2)
+     LUT6:I5->O            2   0.205   0.617  GND_1_o_count[31]_LessThan_62_o2_SW0 (N40)
+     LUT5:I4->O            1   0.205   0.000  GND_1_o_GND_1_o_AND_6_o21_G (N217)
+     MUXF7:I1->O           7   0.140   0.774  GND_1_o_GND_1_o_AND_6_o21 (GND_1_o_GND_1_o_AND_6_o_mmx_out2)
+     LUT6:I5->O            1   0.205   0.580  GND_1_o_GND_1_o_AND_9_o21 (GND_1_o_GND_1_o_AND_9_o_mmx_out2)
+     LUT6:I5->O            2   0.205   0.616  GND_1_o_GND_1_o_AND_11_o21 (GND_1_o_GND_1_o_AND_11_o_mmx_out2)
+     MUXF7:S->O            1   0.148   0.808  Mmux_E[2]_E[2]_MUX_146_o45_SW0 (N174)
+     LUT6:I3->O            1   0.205   0.000  Mmux_E[2]_E[2]_MUX_146_o47 (E[2]_E[2]_MUX_146_o)
+     LDP:D                     0.037          E_2
+    ----------------------------------------
+    Total                      5.894ns (1.848ns logic, 4.046ns route)
+                                       (31.4% logic, 68.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'D[11]_GND_1_o_OR_77_o'
+  Total number of paths / destination ports: 221149106955799 / 6
+-------------------------------------------------------------------------
+Offset:              40.551ns (Levels of Logic = 77)
+  Source:            D<11> (PAD)
+  Destination:       E_2 (LATCH)
+  Destination Clock: D[11]_GND_1_o_OR_77_o falling
+
+  Data Path: D<11> to E_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            55   1.222   1.580  D_11_IBUF (S_OBUF)
+     INV:I->O              0   0.206   0.000  n0449<11>1_INV_0 (n0449<11>)
+     XORCY:LI->O          13   0.136   1.037  Madd_D[11]_GND_1_o_add_2_OUT_xor<11> (D[11]_GND_1_o_add_2_OUT<11>)
+     LUT4:I2->O           21   0.203   1.458  Mmux_GND_1_o_GND_1_o_mux_25_OUT11 (GND_1_o_GND_1_o_mux_25_OUT<0>)
+     LUT6:I1->O            1   0.203   0.000  Madd_count[31]_GND_1_o_add_40_OUT_lut<0> (Madd_count[31]_GND_1_o_add_40_OUT_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Madd_count[31]_GND_1_o_add_40_OUT_cy<0> (Madd_count[31]_GND_1_o_add_40_OUT_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Madd_count[31]_GND_1_o_add_40_OUT_cy<1> (Madd_count[31]_GND_1_o_add_40_OUT_cy<1>)
+     MUXCY:CI->O           0   0.019   0.000  Madd_count[31]_GND_1_o_add_40_OUT_cy<2> (Madd_count[31]_GND_1_o_add_40_OUT_cy<2>)
+     XORCY:CI->O           2   0.180   0.961  Madd_count[31]_GND_1_o_add_40_OUT_xor<3> (count[31]_GND_1_o_add_40_OUT<3>)
+     LUT6:I1->O            4   0.203   0.000  Mmux_n0459261 (Mcompar_GND_1_o_count[31]_LessThan_51_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<4>)
+     MUXCY:CI->O          29   0.213   1.594  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<5>)
+     LUT6:I1->O            0   0.203   0.000  Mmux_n0461271 (Mcompar_GND_1_o_count[31]_LessThan_62_o_lutdi)
+     MUXCY:DI->O           1   0.145   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<4>)
+     MUXCY:CI->O          30   0.213   1.608  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<5>)
+     LUT6:I1->O            4   0.203   1.048  Mmux_n0463271 (n0463<4>)
+     LUT6:I0->O            1   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_lut<0>1 (Mcompar_GND_1_o_count[31]_LessThan_73_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<4>)
+     MUXCY:CI->O          33   0.213   1.650  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<5>)
+     LUT6:I1->O            4   0.203   0.931  Mmux_n0465281 (n0465<5>)
+     LUT5:I1->O            1   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_lut<0> (Mcompar_GND_1_o_count[31]_LessThan_84_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<4>)
+     MUXCY:CI->O          40   0.213   1.750  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<5>)
+     LUT6:I1->O            4   0.203   0.912  Mmux_n0467291 (n0467<6>)
+     LUT5:I2->O            1   0.205   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_lut<0> (Mcompar_GND_1_o_count[31]_LessThan_95_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<4>)
+     MUXCY:CI->O          41   0.213   1.764  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<5>)
+     LUT6:I1->O            4   0.203   0.931  Mmux_n0469301 (n0469<7>)
+     LUT4:I0->O            0   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_lutdi (Mcompar_GND_1_o_count[31]_LessThan_106_o_lutdi)
+     MUXCY:DI->O           1   0.145   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<4>)
+     MUXCY:CI->O          38   0.213   1.721  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<5>)
+     LUT6:I1->O            6   0.203   0.992  Mmux_n0471311 (n0471<8>)
+     LUT4:I0->O            1   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_lut<1>1 (Mcompar_GND_1_o_count[31]_LessThan_117_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<4>)
+     MUXCY:CI->O          32   0.213   1.636  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<5>)
+     LUT6:I1->O            3   0.203   1.015  Mmux_n0473321 (n0473<9>)
+     LUT6:I0->O            1   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_lut<1>1 (Mcompar_GND_1_o_count[31]_LessThan_128_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<4>)
+     MUXCY:CI->O          33   0.213   1.410  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<5>)
+     LUT4:I2->O           16   0.203   1.349  Mmux_n0475121 (Madd_n0477_Madd_lut<1>)
+     LUT6:I1->O            2   0.203   0.961  Mmux_GND_1_o_X_1_o_Mux_139_o_7 (Mmux_GND_1_o_GND_1_o_equal_160_o_7)
+     LUT6:I1->O            1   0.203   0.924  Mmux_GND_1_o_X_1_o_Mux_139_o_5_f71 (Mmux_GND_1_o_X_1_o_Mux_139_o_5_f7)
+     LUT6:I1->O            2   0.203   0.864  Mmux_n04944 (Madd_D[11]_GND_1_o_add_165_OUT_lut<3>)
+     LUT5:I1->O           11   0.203   1.247  D[11]_GND_1_o_AND_13_o1 (D[11]_GND_1_o_AND_13_o)
+     LUT6:I0->O            1   0.203   0.000  Mmux_E[2]_E[2]_MUX_146_o45_SW0_G (N239)
+     MUXF7:I1->O           1   0.140   0.808  Mmux_E[2]_E[2]_MUX_146_o45_SW0 (N174)
+     LUT6:I3->O            1   0.205   0.000  Mmux_E[2]_E[2]_MUX_146_o47 (E[2]_E[2]_MUX_146_o)
+     LDP:D                     0.037          E_2
+    ----------------------------------------
+    Total                     40.551ns (10.400ns logic, 30.151ns route)
+                                       (25.6% logic, 74.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'D[11]_GND_1_o_OR_77_o'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              3.752ns (Levels of Logic = 1)
+  Source:            E_1 (LATCH)
+  Destination:       E<1> (PAD)
+  Source Clock:      D[11]_GND_1_o_OR_77_o falling
+
+  Data Path: E_1 to E<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDP:G->Q              4   0.498   0.683  E_1 (E_1)
+     OBUF:I->O                 2.571          E_1_OBUF (E<1>)
+    ----------------------------------------
+    Total                      3.752ns (3.069ns logic, 0.683ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 178318087249259 / 5
+-------------------------------------------------------------------------
+Delay:               42.491ns (Levels of Logic = 76)
+  Source:            D<11> (PAD)
+  Destination:       F<2> (PAD)
+
+  Data Path: D<11> to F<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            55   1.222   1.580  D_11_IBUF (S_OBUF)
+     INV:I->O              0   0.206   0.000  n0449<11>1_INV_0 (n0449<11>)
+     XORCY:LI->O          13   0.136   1.037  Madd_D[11]_GND_1_o_add_2_OUT_xor<11> (D[11]_GND_1_o_add_2_OUT<11>)
+     LUT4:I2->O           21   0.203   1.458  Mmux_GND_1_o_GND_1_o_mux_25_OUT11 (GND_1_o_GND_1_o_mux_25_OUT<0>)
+     LUT6:I1->O            1   0.203   0.000  Madd_count[31]_GND_1_o_add_40_OUT_lut<0> (Madd_count[31]_GND_1_o_add_40_OUT_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Madd_count[31]_GND_1_o_add_40_OUT_cy<0> (Madd_count[31]_GND_1_o_add_40_OUT_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Madd_count[31]_GND_1_o_add_40_OUT_cy<1> (Madd_count[31]_GND_1_o_add_40_OUT_cy<1>)
+     MUXCY:CI->O           0   0.019   0.000  Madd_count[31]_GND_1_o_add_40_OUT_cy<2> (Madd_count[31]_GND_1_o_add_40_OUT_cy<2>)
+     XORCY:CI->O           2   0.180   0.961  Madd_count[31]_GND_1_o_add_40_OUT_xor<3> (count[31]_GND_1_o_add_40_OUT<3>)
+     LUT6:I1->O            4   0.203   0.000  Mmux_n0459261 (Mcompar_GND_1_o_count[31]_LessThan_51_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<4>)
+     MUXCY:CI->O          29   0.213   1.594  Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_51_o_cy<5>)
+     LUT6:I1->O            0   0.203   0.000  Mmux_n0461271 (Mcompar_GND_1_o_count[31]_LessThan_62_o_lutdi)
+     MUXCY:DI->O           1   0.145   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<4>)
+     MUXCY:CI->O          30   0.213   1.608  Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_62_o_cy<5>)
+     LUT6:I1->O            4   0.203   1.048  Mmux_n0463271 (n0463<4>)
+     LUT6:I0->O            1   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_lut<0>1 (Mcompar_GND_1_o_count[31]_LessThan_73_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<4>)
+     MUXCY:CI->O          33   0.213   1.650  Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_73_o_cy<5>)
+     LUT6:I1->O            4   0.203   0.931  Mmux_n0465281 (n0465<5>)
+     LUT5:I1->O            1   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_lut<0> (Mcompar_GND_1_o_count[31]_LessThan_84_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<4>)
+     MUXCY:CI->O          40   0.213   1.750  Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_84_o_cy<5>)
+     LUT6:I1->O            4   0.203   0.912  Mmux_n0467291 (n0467<6>)
+     LUT5:I2->O            1   0.205   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_lut<0> (Mcompar_GND_1_o_count[31]_LessThan_95_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<4>)
+     MUXCY:CI->O          41   0.213   1.764  Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_95_o_cy<5>)
+     LUT6:I1->O            4   0.203   0.931  Mmux_n0469301 (n0469<7>)
+     LUT4:I0->O            0   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_lutdi (Mcompar_GND_1_o_count[31]_LessThan_106_o_lutdi)
+     MUXCY:DI->O           1   0.145   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<0> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<4>)
+     MUXCY:CI->O          38   0.213   1.721  Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_106_o_cy<5>)
+     LUT6:I1->O            6   0.203   0.992  Mmux_n0471311 (n0471<8>)
+     LUT4:I0->O            1   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_lut<1>1 (Mcompar_GND_1_o_count[31]_LessThan_117_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<4>)
+     MUXCY:CI->O          32   0.213   1.636  Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_117_o_cy<5>)
+     LUT6:I1->O            3   0.203   1.015  Mmux_n0473321 (n0473<9>)
+     LUT6:I0->O            1   0.203   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_lut<1>1 (Mcompar_GND_1_o_count[31]_LessThan_128_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<1> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<2> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<3> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<4> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<4>)
+     MUXCY:CI->O          33   0.213   1.410  Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<5> (Mcompar_GND_1_o_count[31]_LessThan_128_o_cy<5>)
+     LUT4:I2->O           16   0.203   1.349  Mmux_n0475121 (Madd_n0477_Madd_lut<1>)
+     LUT6:I1->O            2   0.203   0.961  Mmux_GND_1_o_X_1_o_Mux_139_o_7 (Mmux_GND_1_o_GND_1_o_equal_160_o_7)
+     LUT6:I1->O            1   0.203   0.924  Mmux_GND_1_o_X_1_o_Mux_139_o_5_f71 (Mmux_GND_1_o_X_1_o_Mux_139_o_5_f7)
+     LUT6:I1->O            2   0.203   0.864  Mmux_n04944 (Madd_D[11]_GND_1_o_add_165_OUT_lut<3>)
+     LUT5:I1->O           11   0.203   1.227  D[11]_GND_1_o_AND_13_o1 (D[11]_GND_1_o_AND_13_o)
+     LUT5:I0->O            1   0.203   0.579  Mmux_F31 (F_2_OBUF)
+     OBUF:I->O                 2.571          F_2_OBUF (F<2>)
+    ----------------------------------------
+    Total                     42.491ns (12.589ns logic, 29.902ns route)
+                                       (29.6% logic, 70.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock D[11]_GND_1_o_OR_77_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+D[11]_GND_1_o_OR_77_o|         |         |    5.894|         |
+---------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.31 secs
+ 
+--> 
+
+Total memory usage is 262068 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

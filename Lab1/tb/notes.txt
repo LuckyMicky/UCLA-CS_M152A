@@ -1,0 +1,18 @@
+
+push 0 to R1
+push 1 to R2
+add R1, R2 to R3
+Send R3
+add R2, R3 to R1
+Send R1
+add r1, R3 to R2
+Send R2
+add R1, R2 to R3
+Send R3
+add R2, R3 to R1
+add r1, R3 to R2
+add R1, R2 to R3
+add R2, R3 to R1
+add r1, R3 to R2
+add R1, R2 to R3
+add R2, R3 to R1

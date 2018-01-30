@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/152/Desktop/lab1/nexys3.xst" -ofn "C:/Users/152/Desktop/lab1/nexys3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/Lab1/nexys3.ucf -p xc6slx16-csg324-3 nexys3.ngc nexys3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nexys3_map.ncd nexys3.ngd nexys3.pcf 
+par -w -intstyle ise -ol high -mt off nexys3_map.ncd nexys3.ncd nexys3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nexys3.twx nexys3.ncd -o nexys3.twr nexys3.pcf 
+bitgen -intstyle ise -f nexys3.ut nexys3.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/lab1/nexys3.xst" -ofn "C:/Users/152/Downloads/lab1/nexys3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Downloads/nexys3.ucf -p xc6slx16-csg324-3 nexys3.ngc nexys3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nexys3_map.ncd nexys3.ngd nexys3.pcf 
+par -w -intstyle ise -ol high -mt off nexys3_map.ncd nexys3.ncd nexys3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nexys3.twx nexys3.ncd -o nexys3.twr nexys3.pcf 
